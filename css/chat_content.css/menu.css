@@ -15,6 +15,11 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+img{
+    height: 35px;
+    width: 35px;
+    margin: 7px;
+}
 .menu_text{
     height: 50px;
     flex: 1;
@@ -25,10 +30,11 @@ input{
     text-align: left;
     font-size: 16px;
     text-indent: 5px;
-    border: white solid 1px;
+    border: #FAFBFB  solid 1px;
     border-bottom: #5CB700 solid 1px;
     outline: 0px;
     caret-color:yellowgreen;
+    background-color: #FAFBFB ;
 }
 #menu_3{
     background-image: url(../../img/small/表情1.svg);
