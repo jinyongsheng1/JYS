@@ -1,0 +1,28 @@
+#title{
+    height: 65px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index: 999;
+}
+#title-left{
+    margin-top: 20px;
+    height: 40px;
+    width: 40px;
+    background-image: url(../../img/small/箭头左.svg);
+    background-position: center;
+    background-size: 18px 18px;
+    background-repeat: no-repeat;
+}
+#title-right{
+    margin-top: 20px;
+    height: 40px;
+    width: 40px;
+    background-image: url(../../img/small/相机.svg);
+    background-position: center;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+}

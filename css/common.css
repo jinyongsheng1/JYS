@@ -1,0 +1,20 @@
+.border{
+    border: red solid 1px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 微软雅黑;
+    font-size: 8px;
+}
+.xy-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+a{
+    text-decoration: none;
+}

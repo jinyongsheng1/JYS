@@ -1,0 +1,43 @@
+#menu{
+    display: flex;
+    height: 50px;
+    justify-content: space-around;
+    background-color: #FAFBFB;
+    border-top: #ebebeb solid 1px;
+}
+.menu-box{
+    height: 50px;
+    width: 50px;
+}
+.menu-box-top{
+    height: 25px;
+    width: 25px;
+    margin-left: 8px;
+    margin-top: 4px;
+}
+#menu1{
+    background-image: url(../img/small/消息.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#menu2{
+    background-image: url(../img/small/通讯录.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#menu3{
+    background-image: url(../img/small/发现.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#menu4{
+    background-image: url(../img/small/我.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.menu-box-bottom{
+    height: 25px;
+    width: 50px;
+    margin-top: 5px;
+    font-size: 12px;
+}

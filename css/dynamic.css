@@ -1,0 +1,93 @@
+#dynamic{
+    flex: 1;
+    background-color: #FDFDFE;
+    overflow: scroll;
+}
+.chat-box{
+    height: 83px;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    border-bottom: #eaeaea solid 1px;
+}
+.chat-box-header{
+    height: 66px;
+    width: 66px;
+    margin: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#header1{
+    background-image: url(../img/header/u=1402472998,1033961727&fm=58.jpg);
+}
+#header2{
+    background-image: url(../img/header/u=1855215556,597556644&fm=58.jpg);
+}
+#header3{
+    background-image: url(../img/header/u=2002219480,1900011612&fm=58.jpg);
+}
+#header4{
+    background-image: url(../img/header/u=2515159663,763983321&fm=58.jpg);
+}
+#header5{
+    background-image: url(../img/header/u=2564997198,4187947589&fm=58.jpg);
+}
+#header6{
+    background-image: url(../img/header/u=3341635606,4274199912&fm=58.jpg);
+}
+#header7{
+    background-image: url(../img/header/u=3543465129,1053317314&fm=58.jpg);
+}
+#header8{
+    background-image: url(../img/header/u=3565362506,2642568560&fm=58.jpg);
+}
+#header9{
+    background-image: url(../img/header/u=4135406723,347938959&fm=58.jpg);
+}
+.chat-box-content {
+    height: 66px;
+    flex: 1;
+    display: flex;
+    flex-flow:column;
+
+}
+.chat-box-content-top{
+    height: 33px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.chat-boc-content-top-nickname{
+    height: 30px;
+    flex: 1;
+    font-size: 18px;
+}
+.chat-boc-content-top-time{
+    height: 30px;
+    width: 40px;
+    font-size: 12px;
+    color: #ababab;
+}
+.chat-box-content-bottom{
+    height: 33px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+.chat-box-content-bottom-text{
+    height: 33px;
+    flex: 1;
+    font-size: 13px;
+    color: #ababab;
+}
+.chat-box-content-bottom-clock{
+    height: 33px;
+    width: 33px;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+}
+#clock1{
+    background-image: url(../img/small/静音.svg);
+}

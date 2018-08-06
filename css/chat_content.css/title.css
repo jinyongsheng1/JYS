@@ -1,0 +1,95 @@
+#title{
+    height: 40px;
+    background-color: #303030;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#title-left{
+    height: 40px;
+    width: 40px;
+    background-image: url(../../img/small/箭头左.svg);
+    background-size: 17px 17px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#title-right{
+    height: 40px;
+    width: 40px;
+    background-image: url(../../img/small/更多.svg);
+    background-size: 20px 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#title-center{
+    flex: 1;
+    height: 40px;
+    display: flex;
+}
+.title_center_left{
+    height: 40px;
+    flex: 1;
+    font-size: 14px;
+    line-height: 40px;
+}
+.title_center_right{
+    height: 40px;
+    flex: 1;
+    background-image: url(../../img/small/静音1.svg);
+    background-size: 20px 20px;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+#title-search{
+    height: 20px;
+    width: 20px;
+    background-image: url(../img/small/搜索.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#title-add-active{
+    height: 200px;
+    width: 180px;
+    background-color: #393A3F;
+    position: absolute;
+    top: 39px;
+    left: 180px;
+    display: none;
+    font-weight: 100;
+}
+.title-add-active-after{
+    height: 38px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.title-add-active-after-left{
+    height: 38px;
+    width: 38px;
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.title-add-active-after-right{
+    height: 38px;
+    flex: 1;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#add1{
+    background-image: url(../img/small/消息1.svg);
+}
+#add2{
+    background-image: url(../img/small/添加朋友.svg);
+}
+#add3{
+    background-image: url(../img/small/扫一扫.svg);
+}
+#add4{
+    background-image: url(../img/small/收付款.svg);
+}
+#add5{
+    background-image: url(../img/small/信封.svg   );
+}

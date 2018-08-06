@@ -1,0 +1,66 @@
+#dynamic{
+    height: 100%;
+    flex:1;
+    background-color: #FDFDFE;
+    overflow: scroll;
+}
+.contact-box{
+    height: 60px;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    border-bottom: #ebebeb solid 1px;
+}
+.contact-box-header{
+    height: 25px;
+    width: 25px;
+    margin: 18px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#header-a{
+    background-image: url(../../img/small/朋友圈.svg);
+}
+#header-b{
+    background-image: url(../../img/small/扫一扫1.svg);
+}
+#header-c{
+    background-image: url(../../img/small/摇一摇.svg);
+}
+#header-d{
+    background-image: url(../../img/small/看一看.svg);
+}
+#header1{
+    background-image: url(../../img/small/搜一搜.svg);
+}
+#header2{
+    background-image: url(../../img/small/附近的人.svg);
+}
+#header3{
+    background-image: url(../../img/small/购物.svg);
+}
+#header4{
+    background-image: url(../../img/small/游戏.svg);
+}
+#header5{
+    background-image: url(../../img/small/小程序.svg);
+}
+
+.contact-box-content {
+    height: 37px;
+    flex: 1;
+    display: flex;
+    flex-flow:column;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 545;
+}
+.contact-TAG{
+    height: 20px;
+    width: 100%;
+    background: #eaeaea;
+    font-size: 10px;
+    font-weight: 350;
+    text-indent: 10px;
+}
+

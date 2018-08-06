@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>微信APP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/container.css" >
+    <link rel="stylesheet" href="../css/signal.css">
+    <link rel="stylesheet" href="../css/title.css">
+
+    <link rel="stylesheet" href="../css/menu.css">
+</head>
+<body>
+<!--container start-->
+<div class="container ">
+    <!--signal start-->
+    <div id="signal">
+        <div id="signal-left">
+            <div id="signal-area">
+                <div class="signal-ok"></div>
+                <div class="signal-ok"></div>
+                <div class="signal-ok"></div>
+                <div class="signal-err"></div>
+            </div>
+            <div id="xG" >4G</div>
+            <div id="operation" >中国联通</div>
+        </div>
+        <div id="signal-center" class=" xy-center">18:42</div>
+        <div id="signal-right" >
+            <div id="wifi" >
+                <div id="wifi-area" ></div>
+                <div id="wifi-area" ></div>
+                <div id="wifi-area" ></div>
+                <div id="wifi-area" ></div>
+            </div>
+            <div id="battery"">
+                <div id="battery-body"  >
+                    <div id="battery-core" class="changing"></div>
+                </div>
+                <div id="battery-header"  ></div>
+            </div>
+        </div></div>
+    <!--signal end-->
+    <!--title start-->
+    <div id="title" >
+        <div id="title-left" >
+            微信
+        </div>
+        <div id="title-center" >
+            <a href="search.html"><div id="title-search"></div></a>
+        </div>
+        <div id="title-right">
+            +
+        </div>
+        <div id="title-add-active" >
+            <div class="title-add-active-after ">
+                <div class="title-add-active-after-left "  id="add1"></div>
+                <div class="title-add-active-after-right ">发起群聊</div>
+            </div>
+            <div class="title-add-active-after " >
+                <div class="title-add-active-after-left "  id="add2"></div>
+                <div class="title-add-active-after-right ">添加朋友</div>
+            </div>
+            <div class="title-add-active-after " >
+                <div class="title-add-active-after-left "  id="add3"></div>
+                <div class="title-add-active-after-right ">扫一扫</div>
+            </div>
+            <div class="title-add-active-after " >
+                <div class="title-add-active-after-left " id="add4" ></div>
+                <div class="title-add-active-after-right ">收付款</div>
+            </div>
+            <div class="title-add-active-after " >
+                <div class="title-add-active-after-left " id="add5" ></div>
+                <div class="title-add-active-after-right ">帮助与反馈</div>
+            </div>
+        </div>
+    </div>
+    <!--title end-->
+    <!--dynamic start-->
+    <div id="dynamic"></div>
+    <!--dynamic end-->
+    <!--menu start-->
+    <div id="menu">
+        <div class="menu-box " data-page="../page/dynamic/chat.html">
+            <div class="menu-box-top" id="menu1"></div>
+            <div class="menu-box-bottom ">&nbsp;&nbsp;微信</div>
+        </div>
+        <div class="menu-box " data-page="../page/dynamic/contacts.html">
+            <div class="menu-box-top "id="menu2"></div>
+            <div class="menu-box-bottom ">&nbsp;通讯录</div>
+        </div>
+        <div class="menu-box " data-page="../page/dynamic/discover.html">
+            <div class="menu-box-top "id="menu3"></div>
+            <div class="menu-box-bottom ">&nbsp;&nbsp;发现</div>
+        </div>
+        <div class="menu-box " data-page="../page/dynamic/me.html">
+            <div class="menu-box-top "id="menu4"></div>
+            <div class="menu-box-bottom ">&nbsp;&nbsp;&nbsp;&nbsp;我</div>
+        </div>
+    </div>
+    <!--menu end-->
+</div>
+<!--container end-->
+</body>
+</html>
+<!--引入脚本-->
+<script src="../JS/jquery.js"></script>
+<script src="../JS/router.js"></script>
+<script src="../JS/index.js"></script>

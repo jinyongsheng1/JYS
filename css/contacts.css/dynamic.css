@@ -1,0 +1,81 @@
+#dynamic{
+    height: 100%;
+    flex:1;
+    background-color: #FDFDFE;
+    overflow: scroll;
+}
+.contact-box{
+    height: 60px;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    border-bottom: #ebebeb solid 1px;
+}
+.contact-box-header{
+    height: 37px;
+    width: 37px;
+    margin: 12px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#header-a{
+    background-image: url(../../img/small/新的朋友.svg);
+    background-size: 33px 33px;
+    margin-left: 14px;
+}
+#header-b{
+    background-image: url(../../img/small/群聊.svg);
+}
+#header-c{
+    background-image: url(../../img/small/标签.svg);
+}
+#header-d{
+    background-image: url(../../img/small/公众号图标.svg);
+    background-size: 33px 33px;
+    margin-left: 14px;
+}
+#header1{
+    background-image: url(../../img/header/阿波.jpg);
+}
+#header2{
+    background-image: url(../../img/header/阿晨.jpg);
+}
+#header3{
+    background-image: url(../../img/header/阿玉.jpg);
+}
+#header4{
+    background-image: url(../../img/header/阿超.jpg);
+}
+#header5{
+    background-image: url(../../img/header/阿坤.jpg);
+}
+#header6{
+    background-image: url(../../img/header/u=3341635606,4274199912&fm=58.jpg);
+}
+#header7{
+    background-image: url(../../img/header/Cactus.jpg);
+}
+#header8{
+    background-image: url(../../img/header/u=3565362506,2642568560&fm=58.jpg);
+}
+#header9{
+    background-image: url(../../img/header/u=4135406723,347938959&fm=58.jpg);
+}
+.contact-box-content {
+    height: 37px;
+    flex: 1;
+    display: flex;
+    flex-flow:column;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 545;
+}
+.contact-TAG{
+    height: 20px;
+    width: 100%;
+    background: #eaeaea;
+    font-size: 10px;
+    font-weight: 350;
+    text-indent: 10px;
+}
+

@@ -1,0 +1,279 @@
+#dynamic{
+    height: 100%;
+    width: 100%;
+    flex: 1;
+    background-color: #FDFDFE;
+    overflow: scroll;
+    position: absolute;
+    z-index: 99;
+    clear: both;
+}
+.dynamic-friends{
+    height: 320px;
+    width: 100%;
+}
+#picture{
+    position: relative;
+    z-index: 9;
+    background-image: url(../../img/friend/背景/背景.jpg);
+    background-size: cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#dynamic-friends-picture-left{
+    font-size: 15px;
+    margin-top: 10px;
+    color: white;
+}
+#dynamic-friends-picture-right{
+    background-image: url(../../img/header/myslef.png);
+    background-size: cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#dynamic-friends-picture{
+    height: 75px;
+    width: 150px;
+    position: absolute;
+    top: 283px;
+    left: 210px;
+    display: flex;
+    z-index: 99;
+}
+#dynamic-friends-picture-left{
+    height: 75px;
+    flex: 1;
+}
+#dynamic-friends-picture-right{
+    height: 75px;
+    flex: 1;
+    border: white solid 2px;
+}
+#space{
+    height: 36px;
+    width: 100%;
+}
+.dynamic-friends-1{
+    width: 100%;
+    /*height: 280px;*/
+    display: flex;
+    border-bottom: #ececec solid 1px;
+    float: top;
+    clear: both;
+}
+.dynamic-friends-1-left{
+
+    width: 15%;
+    }
+.dynamic-friends-1-left-header{
+    height: 38px;
+    width: 38px;
+    margin-top: 10%;
+    margin-left: 15%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.dynamic-friends-1-right{
+    /*height: 100%;*/
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    float: right;
+    clear: both;
+}
+.dynamic-friends-1-right-name{
+    height: 25px;
+    width: 100%;
+    font-size: 15px;
+    color: #465c89;
+    margin-top: 2%;
+}
+.dynamic-friends-1-right-bottom{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.dynamic-friends-1-right-content{
+    width: 100%;
+    /*height: 78%;*/
+    float: left;
+}
+.dynamic-friends-1-right-text{
+    float: left;
+    height: 140px;
+    margin-right: 4%;
+    font-size: 15px;
+    min-height: 10px;
+    overflow: hidden;
+}
+#dynamic-friends-1-right-text-1{
+    float: left;
+    height: 120px;
+    margin-right: 4%;
+    font-size: 15px;
+    min-height: 10px;
+    overflow: hidden;
+}
+
+.dynamic-friends-1-right-text-hidden{
+    width: 100%;
+    height: 25px;
+    float: left;
+}
+.full_text_btn{
+    font-size: 15px;
+    color: #465c89 ;
+}
+.full_text_btn_no{
+    font-size: 15px;
+    color: #465c89;
+}
+.dynamic-friends-1-right-picture{
+    float: left;
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+}
+.dynamic-friends-1-right-picture img{
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.dynamic-friends-1-right-bottom-time{
+    height: 30px;
+    width: 55px;
+    text-align: left;
+    line-height: 30px;
+    color: #ababab;
+    font-size: 11px;
+}
+.dynamic-friends-1-right-bottom-say-box{
+    height: 30px;
+    flex: 1;
+    margin-right: 5%;
+    display: none;
+}
+.dynamic-friends-1-right-bottom-say{
+    height: 30px;
+    flex: 1;
+    background-color: #303030;
+    margin-left: 10%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.dynamic-friends-1-right-bottom-say-left{
+     height: 30px;
+     flex: 1;
+    display: flex;
+}
+.dynamic-friends-1-right-bottom-say-right{
+    height: 30px;
+    flex: 1;
+    display: flex;
+}
+
+.dynamic-friends-1-right-bottom-right{
+    height: 30px;
+    width: 30px;
+    margin-right: 2%;
+    background-image: url(../../img/small/评论1.svg);
+    background-position: center;
+    background-size: 22px 22px;
+    background-repeat: no-repeat;
+}
+.dynamic-friends-1-right-bottom-say-left-1{
+    height: 100%;
+    width: 50%;
+    background-image: url(../../img/small/爱心.svg);
+    background-size: 25px 20px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.dynamic-friends-1-right-bottom-say-left-2{
+    height: 100%;
+    width: 50%;
+    color: white;
+    font-size: 13px;
+    line-height: 220%;
+}
+.dynamic-friends-1-right-bottom-say-right-1{
+    height: 100%;
+    width: 50%;
+    background-image: url(../../img/small/评论.svg);
+    background-size: 25px 18px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.dynamic-friends-1-right-bottom-say-right-2{
+    height: 100%;
+    width: 50%;
+    color: white;
+    font-size: 13px;
+    line-height: 220%;
+}
+.dynamic_friends_bottom{
+    height: 30px;
+    width: 96%;
+    font-size: 15px;
+    background-color: #ededed;
+    border-bottom: #fdfdfe solid 1px;
+    display: flex;
+    margin-top: 10px;
+}
+.dynamic_friends_bottom_left{
+    height: 30px;
+    width: 30px;
+    background-image: url(../../img/friend/small/赞.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15px 15px;
+}
+.dynamic_friends_bottom_right{
+    height: 100%;
+    flex: 1;
+    font-size: 15px;
+    color: #465c89;
+    margin-top: 4px;
+}
+.dynamic_friends_bottom_1{
+    float: left;
+    width: 96%;
+    font-size: 15px;
+    background-color: #ededed;
+    text-indent: 10px;
+}
+p.nickname{
+    font-size: 15px;
+    color: #465c89;
+}
+p.n{
+    color: white;
+    font-size: 13px;
+    line-height: 220%;
+}
+p.m{
+    color: white;
+    font-size: 13px;
+    line-height: 220%;
+}
+#dynamic-friends-1-left-header-1{
+    background-image: url(../../img/header/刘沙沙.jpg);
+}
+#dynamic-friends-1-left-header-2{
+    background-image: url(../../img/friend/friendsheader/习大大.jpg);
+}
+#dynamic-friends-1-left-header-3{
+    background-image: url(../../img/friend/friendsheader/微信图片_20180804112400.jpg);
+}
+#friends-content-3{
+    float: right;
+    clear: both;
+}
+#dynamic-friends-1-left-header-4{
+    background-image: url(../../img/friend/friendsheader/时光审判.jpg);
+}

@@ -1,0 +1,78 @@
+#title{
+    height: 40px;
+    background-color: #303030;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+#title-left{
+    font-size: 16px;
+    margin-left: 8px;
+}
+#title-right{
+    margin-top: -4px;
+    font-size: 32px;
+    margin-right: 8px;
+}
+#title-center{
+    flex: 1;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 25px;
+}
+#title-search{
+    height: 20px;
+    width: 20px;
+    background-image: url(../img/small/搜索.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#title-add-active{
+    height: 200px;
+    width: 180px;
+    background-color: #393A3F;
+    position: absolute;
+    top: 39px;
+    left: 180px;
+    display: none;
+    font-weight: 100;
+}
+.title-add-active-after{
+    height: 38px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.title-add-active-after-left{
+    height: 38px;
+    width: 38px;
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.title-add-active-after-right{
+    height: 38px;
+    flex: 1;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#add1{
+    background-image: url(../img/small/消息1.svg);
+}
+#add2{
+    background-image: url(../img/small/添加朋友.svg);
+}
+#add3{
+    background-image: url(../img/small/扫一扫.svg);
+}
+#add4{
+    background-image: url(../img/small/收付款.svg);
+}
+#add5{
+    background-image: url(../img/small/信封.svg   );
+}

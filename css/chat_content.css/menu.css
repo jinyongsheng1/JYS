@@ -1,0 +1,38 @@
+#menu{
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    background-color: #FAFBFB;
+    border-top: #ebebeb solid 1px;
+}
+.menu-box{
+    height: 50px;
+    width: 50px;
+}
+#menu_1{
+    background-image: url(../../img/small/语音1.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.menu_text{
+    height: 50px;
+    flex: 1;
+}
+input{
+    height: 40px;
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+    text-indent: 5px;
+    border: white solid 1px;
+    border-bottom: #5CB700 solid 1px;
+    outline: 0px;
+    caret-color:yellowgreen;
+}
+#menu_3{
+    background-image: url(../../img/small/表情1.svg);
+}
+#menu_4{
+    background-image: url(../../img/small/加号.svg);
+}

@@ -1,0 +1,94 @@
+#dynamic{
+    height: 100%;
+    flex:1;
+    background-color: #FDFDFE;
+    overflow: scroll;
+}
+.contact-box{
+    height: 56px;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    border-bottom: #ebebeb solid 1px;
+}
+#contact-box-1{
+    height: 91px;
+    align-items: center;
+}
+
+.contact-box-header{
+    height: 25px;
+    width: 25px;
+    margin: 18px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#contact-box-center-1 {
+    height: 60px;
+    margin-top: 5px;
+}
+#contact-box-content-name {
+    height: 30px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 540;
+}
+#contact-box-content-nmb{
+    height: 30px;
+    width: 100%;
+    font-size: 13px;
+    color: darkgray ;
+}
+
+#contact-box-right{
+    height: 28px;
+    width: 28px;
+    align-items: center;
+    background-image: url(../../img/small/二维码.svg);
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 10px;
+}
+#header-a{
+    background-image: url(../../img/header/myslef.png);
+    height: 75px;
+    width: 75px;
+    margin: 6px;
+}
+#header-b{
+    background-image: url(../../img/small/钱包.svg);
+}
+#header-c{
+    background-image: url(../../img/small/盒子.svg);
+}
+#header-d{
+    background-image: url(../../img/small/相册.svg);
+}
+#header1{
+    background-image: url(../../img/small/卡包.svg);
+}
+#header2{
+    background-image: url(../../img/small/表情.svg);
+}
+#header3{
+    background-image: url(../../img/small/设置.svg);
+}
+.contact-box-content {
+    height: 37px;
+    flex: 1;
+    display: flex;
+    flex-flow:column;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 545;
+}
+.contact-TAG{
+    height: 20px;
+    width: 100%;
+    background: #eaeaea;
+    font-size: 10px;
+    font-weight: 350;
+    text-indent: 10px;
+}
+

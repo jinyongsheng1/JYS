@@ -1,0 +1,38 @@
+#search{
+     height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#search-left{
+    height: 40px;
+    width: 40px;
+    background-image: url(../../img/small/返回.svg);
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#search-center{
+    height: 40px;
+    flex: 1;
+}
+#search-right{
+    height: 40px;
+    width: 40px;
+    background-image: url(../../img/small/语音.svg);
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#input-1{
+    height: 40px;
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+    color: #c3c3c3;
+    text-indent: 5px;
+    outline: 0px;
+    caret-color:yellowgreen;
+    border: white solid 1px;
+}
+
